@@ -1,0 +1,48 @@
+.ppl-- {
+  &card {
+    background: #ffffff;
+    border: 1px solid rgba(206, 206, 206, 0.38);
+    box-shadow: 0px 8px 12px rgba(154, 170, 207, 0.18);
+    border-radius: 4px;
+    padding: 20px;
+  }
+
+  &img {
+    height: 160px;
+    width: 160px;
+    margin-right: 20px;
+  }
+
+  &card-content {
+    flex-grow: 1;
+
+    .name_ {
+      border-bottom: 1px solid rgba(48, 48, 48, 0.12);
+      min-width: 270px;
+      width: max-content;
+      padding-bottom: 8px;
+
+      a {
+        color: inherit;
+      }
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      color: $heading-blue;
+    }
+
+    h3 {
+      font: 400 1rem/1.2rem "DM Sans";
+      color: $heading-blue;
+    }
+
+    p {
+      color: $light-blue;
+    }
+
+    span {
+      color: $heading-blue;
+    }
+  }
+}

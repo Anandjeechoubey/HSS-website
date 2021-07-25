@@ -1,0 +1,39 @@
+.hero-- {
+  &bg-dec {
+    width: 50%;
+    height: 40%;
+    background-color: $off-white-1;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+  }
+
+  &content {
+    width: 40%;
+    margin-right: 10%;
+  }
+
+  &img {
+    max-width: 50%;
+  }
+
+  &arrow-text {
+    margin: 0;
+    margin-left: 0.75rem;
+    font-size: 1rem;
+    color: $nav-blue;
+  }
+}
+
+@include phone-only {
+  .hero-- {
+    &content {
+      width: 100%;
+      margin: 0;
+    }
+
+    &img {
+      max-width: 100%;
+    }
+  }
+}

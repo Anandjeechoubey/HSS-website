@@ -1,0 +1,57 @@
+.breadcrump {
+  font-size: 0.875rem;
+  color: $nav-dark;
+
+  a {
+    color: $light-blue;
+    opacity: 0.6;
+  }
+}
+
+.ws-- {
+  &subtitle {
+    color: rgba(67, 85, 121, 1);
+    max-width: 700px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 0.875rem;
+  }
+
+  &tabs {
+    border-bottom: none;
+
+    a {
+      color: $light-blue;
+      font-size: 0.875rem;
+      border: none !important;
+    }
+
+    a:hover {
+      background: #efefee;
+    }
+
+    a.active {
+      border-bottom: 2px solid $nav-blue !important;
+    }
+  }
+
+  &grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2.25rem;
+    grid-row-gap: 2.25rem;
+  }
+}
+
+.awardee-names {
+  color: #1b2d45;
+  font: 500 1.25rem/2rem Domaine Display Test;
+  border-bottom: 1px solid #e8ebef;
+  padding: 1rem 0;
+  list-style-position: inside;
+  p {
+    color: #435579;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

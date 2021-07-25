@@ -1,0 +1,57 @@
+.padded-container {
+  padding: 4.5rem 10vw;
+}
+
+.section-heading {
+  font-family: Domaine Display Test;
+  font-size: 2.5rem;
+  line-height: 120%;
+  letter-spacing: 0.04rem;
+  color: $heading-blue;
+  margin-bottom: 3rem;
+}
+
+.section-heading-sm {
+  @extend .section-heading;
+  font-size: 1.8rem;
+}
+
+.section-content {
+  font: 400 1.25rem/2.125rem "DM Sans";
+  color: $light-blue;
+  text-align: justify;
+}
+
+.grey-section {
+  background: rgba(251, 251, 253, 1);
+}
+
+.dp-shadow {
+  filter: drop-shadow(20px 20px 60px rgba(21, 27, 59, 0.2));
+}
+
+.max-width-800 {
+  max-width: 800px;
+}
+
+.eco-db-- {
+  &hero {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@include phone-only {
+  .padded-container {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .section-heading {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-content {
+    font-size: 1rem;
+  }
+}

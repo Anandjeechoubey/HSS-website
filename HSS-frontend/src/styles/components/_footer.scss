@@ -1,0 +1,47 @@
+.footer-- {
+  &main {
+    padding: 5rem 7.75rem;
+    background: $heading-blue;
+  }
+
+  &hr {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+  }
+
+  &dept {
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 0.25em;
+    margin: 0;
+  }
+
+  &hss {
+    font: 500 2rem/120% "Domaine Display Test";
+    color: white;
+    margin-bottom: 3.75rem;
+  }
+
+  &insti {
+    @extend .footer--dept;
+    letter-spacing: normal;
+  }
+
+  &label {
+    font-size: 1.125rem;
+    color: white;
+  }
+
+  &link {
+    color: white;
+    margin: 1rem 0;
+    display: block;
+    i {
+      opacity: 0.4;
+      margin-right: 8px;
+    }
+  }
+}
+
+a.footer--insti {
+  font-weight: 700;
+}

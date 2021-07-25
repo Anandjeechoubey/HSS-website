@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  font-family: "DM Sans";
+  box-sizing: border-box;
+}
+
+@mixin phone-only {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@import "./styles/colors";
+@import "./styles/layouts";
+@import "./styles/pages/home";
+@import "./styles/components/navbar";
+@import "./styles/components/hero";
+@import "./styles/components/announcements";
+@import "./styles/components/eventList";
+@import "./styles/components/overflowCard";
+@import "./styles/components/phdCard";
+@import "./styles/components/footer";
+@import "./styles/pages/about";
+@import "./styles/components/member";
+@import "./styles/pages/academics";
+@import "./styles//pages/workshops";
+@import "./styles/components/wsCard";
+@import "./styles/pages/people";

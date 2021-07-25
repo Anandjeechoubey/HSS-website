@@ -1,0 +1,49 @@
+.home-- {
+  &heading {
+    span {
+      font: 500 1.25rem/1.625rem "DM Sans";
+      letter-spacing: 0.4rem;
+    }
+
+    h1 {
+      font: 500 3.5rem/4.25rem "Domaine Display Test";
+      color: $heading-blue;
+      margin-top: 1.5rem;
+    }
+  }
+
+  &hist-img {
+    height: 660px;
+    margin-right: 3.75rem;
+  }
+}
+
+.btn-outline-primary {
+  color: $nav-blue;
+  border-color: $nav-blue;
+}
+
+.btn-outline-primary:hover {
+  background-color: $light-blue;
+  border-color: $light-blue;
+}
+
+@include phone-only {
+  .home-- {
+    &heading {
+      span {
+        font: 500 0.75rem/1.125rem "DM Sans";
+      }
+      h1 {
+        font: 500 1.75rem/2.5rem "Domaine Display Test";
+        margin-top: 0.75rem;
+      }
+    }
+
+    &hist-img {
+      height: auto;
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

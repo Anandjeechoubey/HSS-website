@@ -1,0 +1,48 @@
+.ann-- {
+  &wrapper {
+    display: block;
+    border-bottom: 1px solid rgba(48, 48, 48, 0.12);
+    padding: 2rem;
+    transition: background 0.3s ease;
+  }
+
+  &wrapper:hover {
+    background-color: $off-white-1;
+    text-decoration: none;
+  }
+
+  &spons {
+    color: $light-blue;
+    margin: 0.75rem 0;
+    font-size: 0.875rem;
+  }
+
+  &title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  &date {
+    color: $text-grey;
+    font-size: 0.875rem;
+    margin: 0.25rem 0;
+  }
+}
+
+@include phone-only {
+  .ann-- {
+    &wrapper {
+      padding: 1rem 0;
+    }
+
+    &title {
+      font-size: 1.125rem;
+    }
+
+    &spons,
+    &date {
+      font-size: 0.75rem;
+    }
+  }
+}

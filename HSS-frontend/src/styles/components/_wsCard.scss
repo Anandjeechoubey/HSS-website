@@ -1,0 +1,30 @@
+.wsc-- {
+  &card {
+    border: 1px solid rgba(236, 241, 251, 1);
+    border-radius: 4px;
+    padding: 1.5rem;
+  }
+
+  &title {
+    font: 400 1.25rem/2.25rem "DM Sans";
+    color: rgba(27, 45, 69, 1);
+    border-bottom: 1px solid rgba(232, 235, 239, 1);
+  }
+
+  &light {
+    color: rgba(161, 170, 188, 1);
+    font-size: 0.875rem;
+    span {
+      border-right: 1px solid rgba(232, 235, 239, 1);
+      padding-right: 8px;
+      margin-right: 8px;
+    }
+  }
+
+  &body {
+    margin-top: 10px;
+    color: rgba(67, 85, 121, 1);
+    font-size: 0.875rem;
+    line-height: 140%;
+  }
+}

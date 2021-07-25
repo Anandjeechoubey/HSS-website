@@ -1,0 +1,48 @@
+.acad-- {
+  &progs-section {
+    padding-bottom: 12rem;
+  }
+
+  &progs-card {
+    width: 100%;
+    max-width: 100%;
+    margin-left: -5rem;
+    margin-bottom: -10rem;
+
+    P {
+      font-size: 1.125rem;
+      line-height: 1.8rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+    }
+  }
+
+  &progs-img {
+    height: 27rem;
+  }
+
+  &links-col {
+    border-left: 1px solid #e8ebef;
+
+    p {
+      font-size: 1rem;
+      line-height: 160%;
+      color: $heading-blue;
+    }
+
+    a {
+      display: block;
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      margin: 1rem 0;
+      color: $light-blue !important;
+    }
+  }
+
+  &hr {
+    border-bottom: 1px solid #e8ebef;
+    margin: 1rem 0;
+  }
+}
