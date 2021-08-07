@@ -45,7 +45,7 @@ function About() {
             technical education. Over the years, it has developed into a lively department, encompassing teaching and research programs in the areas of English, Economics, Philosophy, Psychology,
             Sociology, Fine Arts and related inter & cross disciplinary subjects. Seventy two scholars have been awarded the Ph.D. degrees across different disciplines of the department. One of the
             notable achievements in recent years has been the expansion in research activities and exchanges of ideas, facilitated by the constant surge of discussions, consultations and publications
-            in esteemed and high impact journals. Besides, there has been considerable progression of tangible and scholastic infrastructure which in process provides an impetus to its bright future.
+            in esteemed and high impact journals. Besides, there has been considerable progression of tangible and scholastic infrastructure which in process provides an impetus to its bright future
           </p>
         </div>
       </section>
